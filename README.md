@@ -40,24 +40,33 @@ You are started with a periodic_table database that has information about some c
   - If user run **./element.sh** script with another element as input, it should get the same output but with information associated with the given element.
   - If the argument input to the **element.sh** script doesn't exist as an "atomic_ number", "symbol", or "name" in the database, the only output should be "*I could not find that element in the database.*"
 
-![Image](https://github.com/user-attachments/assets/b1aafa19-fd71-48a5-b1f0-14debfe1ea09)
+### fix database 
+![Image](https://github.com/user-attachments/assets/a7b0765c-28eb-4b66-9ab4-8823590eb61e)
 
-![Image](https://github.com/user-attachments/assets/11b9f1ea-d422-4cc7-bca4-7f0e2a3e90fd)
+![Image](https://github.com/user-attachments/assets/c4f18511-3595-4b65-a530-16da367c68a9)
 
-![Image](https://github.com/user-attachments/assets/08d3201b-7be4-48ff-980c-3c74acce4380)
+![Image](https://github.com/user-attachments/assets/b1f5a7cc-de96-4bf9-9cc2-b21641a81d8e)
 
-![Image](https://github.com/user-attachments/assets/54061de1-c13c-4330-84ba-10c432525c8d)
+![Image](https://github.com/user-attachments/assets/35db1375-7d73-4da2-b9a3-f1cda526feb1)
 
-![Image](https://github.com/user-attachments/assets/98a7094b-695a-487d-9dc8-f3e90663d430)
+![Image](https://github.com/user-attachments/assets/b52e66b5-5998-496e-a134-cbba32ce03ac)
 
-![Image](https://github.com/user-attachments/assets/65f2301e-f145-49d6-832f-c94c4af2a551)
+![Image](https://github.com/user-attachments/assets/adcbdfe1-8842-44f9-be37-7cd04155e4f1)
 
-![Image](https://github.com/user-attachments/assets/7940efff-f7ac-4dd3-b930-de1b5c4ff69d)
+![Image](https://github.com/user-attachments/assets/dd869058-6ba6-45ff-8d5e-3b34983a559e)
 
-![Image](https://github.com/user-attachments/assets/9ceff4a8-89db-49b6-94cb-e81d917096c1)
+![Image](https://github.com/user-attachments/assets/3963f579-a69e-4f6a-b348-60eac5d4388f)
 
-![Image](https://github.com/user-attachments/assets/183d4c7f-2fcf-4e50-8bce-d4ee29ce1045)
+![Image](https://github.com/user-attachments/assets/5b0a6037-ba8b-466f-a517-3da64a86a443)
 
-![Image](https://github.com/user-attachments/assets/61a8c8f3-5553-4c3a-b297-6324630bcfed)
+![Image](https://github.com/user-attachments/assets/d15b6794-f7fd-468d-849f-124a35a8681a)
 
-![Image](https://github.com/user-attachments/assets/39131342-91ee-47e1-9f8b-6d6fa4acc43b)
+![Image](https://github.com/user-attachments/assets/14dba789-a195-4e70-9e9b-b41782ed01ed)
+
+![Image](https://github.com/user-attachments/assets/f26a445c-46a6-4d67-84d6-dd13b00d6049)
+
+![Image](https://github.com/user-attachments/assets/7ce85ca1-805d-457b-8f3d-617111abbe18)
+
+![Image](https://github.com/user-attachments/assets/18c36201-36a2-4409-88f2-20c8ec833cad)
+
+### final output
