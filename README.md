@@ -41,42 +41,86 @@ You are started with a periodic_table database that has information about some c
   - If the argument input to the **element.sh** script doesn't exist as an "atomic_ number", "symbol", or "name" in the database, the only output should be "*I could not find that element in the database.*"
 
 
-[*periodic_table.sql*](https://github.com/nikitanpatil1/Periodic-Table-Database-fCC/blob/main/periodic_table.sql)
-[*element.sh*](https://github.com/nikitanpatil1/Periodic-Table-Database-fCC/blob/main/element.sh)
+## Solution
+
+### Part 1: Fix the database 
+
+   The mistakes in the database were fixed according to the above conditions
+  
+  #### Fix the database output:
+  
+  - *Output of original database with mistakes*:
+	
+	  ![Image](https://github.com/user-attachments/assets/a7b0765c-28eb-4b66-9ab4-8823590eb61e)
+	
+  - *Output of the queries used to fix the database*:
+	
+	  ![Image](https://github.com/user-attachments/assets/c4f18511-3595-4b65-a530-16da367c68a9)
+
+      ![Image](https://github.com/user-attachments/assets/b1f5a7cc-de96-4bf9-9cc2-b21641a81d8e)
+
+      ![Image](https://github.com/user-attachments/assets/35db1375-7d73-4da2-b9a3-f1cda526feb1)
+
+      ![Image](https://github.com/user-attachments/assets/b52e66b5-5998-496e-a134-cbba32ce03ac)
+
+      ![Image](https://github.com/user-attachments/assets/adcbdfe1-8842-44f9-be37-7cd04155e4f1)
+
+      ![Image](https://github.com/user-attachments/assets/dd869058-6ba6-45ff-8d5e-3b34983a559e)
+
+      ![Image](https://github.com/user-attachments/assets/3963f579-a69e-4f6a-b348-60eac5d4388f)
+
+      ![Image](https://github.com/user-attachments/assets/5b0a6037-ba8b-466f-a517-3da64a86a443)
+
+      ![Image](https://github.com/user-attachments/assets/d15b6794-f7fd-468d-849f-124a35a8681a)
+
+      ![Image](https://github.com/user-attachments/assets/14dba789-a195-4e70-9e9b-b41782ed01ed)
+
+      ![Image](https://github.com/user-attachments/assets/f26a445c-46a6-4d67-84d6-dd13b00d6049)
+
+      ![Image](https://github.com/user-attachments/assets/7ce85ca1-805d-457b-8f3d-617111abbe18)
+  
+   - *Output of fixed database without mistakes*:
+	
+	  ![Image](https://github.com/user-attachments/assets/18c36201-36a2-4409-88f2-20c8ec833cad)
+ 
+  
+  
+### Part 2: Create your git repository 
+
+  The small bash program was made. Which was version controlled with git, and the suggested folder was turned into a git repository. 
+  
+  
+  
+### Part 3: Create the script
+    
+The script was created according to the above conditions that accepts an argument in the form of an "atomic number", "symbol", or "name" of an element and outputs some information about the given element. Which is in the file named [*element.sh*](https://github.com/nikitanpatil1/Periodic-Table-Database-fCC/blob/main/element.sh) .
 
 
-### fix database 
-![Image](https://github.com/user-attachments/assets/a7b0765c-28eb-4b66-9ab4-8823590eb61e)
+  #### Output of how the script works:
+  
+  - *Output when the user run ./element.sh*:
+  
+     Whenever the user executes the script without any argument to it then it asks user "*Please provide an element as an argument.*"
+	 
+	 ![Image](https://github.com/user-attachments/assets/ae8311c5-d1d2-437d-a47d-b45ca3710d92)
 
-![Image](https://github.com/user-attachments/assets/c4f18511-3595-4b65-a530-16da367c68a9)
+  
+  - *Output when the user run "./element.sh 1", "./element.sh H", or "./element.sh Hydrogen"*:
+  
+     Whenever the user executes the script with an argument which consists of the elements present in database then it gives the following output.
+	 
+	 ![Image](https://github.com/user-attachments/assets/4efb1992-267f-48f0-89c1-5e1a7a3a7e2c)
+    
+   
+  - *Output when user run **./element.sh** script with another element as input which is not present in database*:
+     
+     Whenever the user executes the script with an argument which consists of the elements other than that which are in database then it gives the following output.
+  
+     ![Image](https://github.com/user-attachments/assets/de5af9d9-3be5-4814-a9bd-d44ec73ca412)
 
-![Image](https://github.com/user-attachments/assets/b1f5a7cc-de96-4bf9-9cc2-b21641a81d8e)
+  
 
-![Image](https://github.com/user-attachments/assets/35db1375-7d73-4da2-b9a3-f1cda526feb1)
 
-![Image](https://github.com/user-attachments/assets/b52e66b5-5998-496e-a134-cbba32ce03ac)
 
-![Image](https://github.com/user-attachments/assets/adcbdfe1-8842-44f9-be37-7cd04155e4f1)
 
-![Image](https://github.com/user-attachments/assets/dd869058-6ba6-45ff-8d5e-3b34983a559e)
 
-![Image](https://github.com/user-attachments/assets/3963f579-a69e-4f6a-b348-60eac5d4388f)
-
-![Image](https://github.com/user-attachments/assets/5b0a6037-ba8b-466f-a517-3da64a86a443)
-
-![Image](https://github.com/user-attachments/assets/d15b6794-f7fd-468d-849f-124a35a8681a)
-
-![Image](https://github.com/user-attachments/assets/14dba789-a195-4e70-9e9b-b41782ed01ed)
-
-![Image](https://github.com/user-attachments/assets/f26a445c-46a6-4d67-84d6-dd13b00d6049)
-
-![Image](https://github.com/user-attachments/assets/7ce85ca1-805d-457b-8f3d-617111abbe18)
-
-![Image](https://github.com/user-attachments/assets/18c36201-36a2-4409-88f2-20c8ec833cad)
-
-### final output
-![Image](https://github.com/user-attachments/assets/ae8311c5-d1d2-437d-a47d-b45ca3710d92)
-
-![Image](https://github.com/user-attachments/assets/4efb1992-267f-48f0-89c1-5e1a7a3a7e2c)
-
-![Image](https://github.com/user-attachments/assets/de5af9d9-3be5-4814-a9bd-d44ec73ca412)
