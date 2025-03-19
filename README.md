@@ -40,6 +40,11 @@ You are started with a periodic_table database that has information about some c
   - If user run **./element.sh** script with another element as input, it should get the same output but with information associated with the given element.
   - If the argument input to the **element.sh** script doesn't exist as an "atomic_ number", "symbol", or "name" in the database, the only output should be "*I could not find that element in the database.*"
 
+
+[*periodic_table.sql*](https://github.com/nikitanpatil1/Periodic-Table-Database-fCC/blob/main/periodic_table.sql)
+[*element.sh*](https://github.com/nikitanpatil1/Periodic-Table-Database-fCC/blob/main/element.sh)
+
+
 ### fix database 
 ![Image](https://github.com/user-attachments/assets/a7b0765c-28eb-4b66-9ab4-8823590eb61e)
 
@@ -70,3 +75,8 @@ You are started with a periodic_table database that has information about some c
 ![Image](https://github.com/user-attachments/assets/18c36201-36a2-4409-88f2-20c8ec833cad)
 
 ### final output
+![Image](https://github.com/user-attachments/assets/ae8311c5-d1d2-437d-a47d-b45ca3710d92)
+
+![Image](https://github.com/user-attachments/assets/4efb1992-267f-48f0-89c1-5e1a7a3a7e2c)
+
+![Image](https://github.com/user-attachments/assets/de5af9d9-3be5-4814-a9bd-d44ec73ca412)
